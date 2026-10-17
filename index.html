@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mensagens Inspiradas</title>
+  <meta name="description" content="Uma mensagem inspirada das escrituras e dos profetas para o seu dia.">
+  <meta name="theme-color" content="#f7f3ec">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="pagina">
+    <header class="topo">
+      <span class="ornamento" aria-hidden="true"></span>
+      <p class="saudacao" id="saudacao">Uma mensagem para você</p>
+    </header>
+
+    <article class="mensagem" id="mensagem" aria-live="polite">
+      <p class="categoria" id="categoria"></p>
+      <blockquote class="texto" id="texto"></blockquote>
+      <p class="fonte" id="fonte"></p>
+      <p class="detalhe" id="detalhe"></p>
+    </article>
+
+    <nav class="acoes">
+      <button class="botao" id="outra" type="button">Outra mensagem</button>
+      <a class="link" id="contexto" target="_blank" rel="noopener" hidden>Ler no contexto</a>
+      <button class="link" id="compartilhar" type="button" hidden>Compartilhar</button>
+    </nav>
+
+    <footer class="rodape">
+      <p>“Em memória de nosso Deus, nossa religião e liberdade…” — Alma 46:12</p>
+      <p class="aviso">Site pessoal, não oficial. Conteúdo de
+        <a href="https://www.churchofjesuschrist.org/?lang=por" target="_blank" rel="noopener">churchofjesuschrist.org</a>.</p>
+    </footer>
+  </main>
+
+  <script src="mensagens.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
