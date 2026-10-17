@@ -23,6 +23,18 @@ const MENSAGENS = [
     fonte: "Alma 48:17",
     link: ref("bofm", "alma", 48, 17),
   },
+  {
+    tipo: "escritura",
+    texto: "Morôni era um homem forte e poderoso; era um homem de perfeito entendimento.",
+    fonte: "Alma 48:11",
+    link: ref("bofm", "alma", 48, 11),
+  },
+  {
+    tipo: "escritura",
+    texto: "Ora, eles nunca haviam lutado; não obstante, não temiam a morte; [...] e haviam sido ensinados por suas mães que, se não duvidassem, Deus os livraria.",
+    fonte: "Alma 56:47",
+    link: ref("bofm", "alma", 56, 47),
+  },
 
   // — Livro de Mórmon —
   {
@@ -67,6 +79,72 @@ const MENSAGENS = [
     fonte: "Morôni 10:32",
     link: ref("bofm", "moro", 10, 32),
   },
+  {
+    tipo: "escritura",
+    texto: "Portanto deveis prosseguir com firmeza em Cristo, tendo um perfeito esplendor de esperança e amor a Deus e a todos os homens.",
+    fonte: "2 Néfi 31:20",
+    link: ref("bofm", "2-ne", 31, 20),
+  },
+  {
+    tipo: "escritura",
+    texto: "Banqueteai-vos com as palavras de Cristo; pois eis que as palavras de Cristo vos dirão todas as coisas que deveis fazer.",
+    fonte: "2 Néfi 32:3",
+    link: ref("bofm", "2-ne", 32, 3),
+  },
+  {
+    tipo: "escritura",
+    texto: "E falamos de Cristo, regozijamo-nos em Cristo, pregamos a Cristo, profetizamos de Cristo.",
+    fonte: "2 Néfi 25:26",
+    link: ref("bofm", "2-ne", 25, 26),
+  },
+  {
+    tipo: "escritura",
+    texto: "Chorar com os que choram; sim, e consolar os que necessitam de consolo e servir de testemunhas de Deus em todos os momentos e em todas as coisas e em todos os lugares.",
+    fonte: "Mosias 18:9",
+    link: ref("bofm", "mosiah", 18, 9),
+  },
+  {
+    tipo: "escritura",
+    texto: "Por meio de coisas pequenas e simples as grandes são realizadas.",
+    fonte: "Alma 37:6",
+    link: ref("bofm", "alma", 37, 6),
+  },
+  {
+    tipo: "escritura",
+    texto: "Aconselha-te com o Senhor em todos os teus atos e ele dirigir-te-á para o bem.",
+    fonte: "Alma 37:37",
+    link: ref("bofm", "alma", 37, 37),
+  },
+  {
+    tipo: "escritura",
+    texto: "Todos os que confiarem em Deus serão amparados em suas provações e dificuldades e aflições e serão elevados no último dia.",
+    fonte: "Alma 36:3",
+    link: ref("bofm", "alma", 36, 3),
+  },
+  {
+    tipo: "escritura",
+    texto: "Se tendes fé, tendes esperança nas coisas que não se veem e que são verdadeiras.",
+    fonte: "Alma 32:21",
+    link: ref("bofm", "alma", 32, 21),
+  },
+  {
+    tipo: "escritura",
+    texto: "Deixai que vossa luz brilhe diante deste povo, para que vejam vossas boas obras e glorifiquem vosso Pai que está no céu.",
+    fonte: "3 Néfi 12:16",
+    link: ref("bofm", "3-ne", 12, 16),
+  },
+  {
+    tipo: "escritura",
+    texto: "Não recebeis testemunho senão depois da prova de vossa fé.",
+    fonte: "Éter 12:6",
+    link: ref("bofm", "ether", 12, 6),
+  },
+  {
+    tipo: "escritura",
+    texto: "Mas a caridade é o puro amor de Cristo e permanece para sempre.",
+    fonte: "Morôni 7:47",
+    link: ref("bofm", "moro", 7, 47),
+  },
 
   // — Bíblia —
   {
@@ -99,8 +177,56 @@ const MENSAGENS = [
     fonte: "Filipenses 4:13",
     link: ref("nt", "philip", 4, 13),
   },
+  {
+    tipo: "escritura",
+    texto: "Não to mandei eu? Esforça-te e tem bom ânimo; não temas, nem te espantes, porque o Senhor teu Deus é contigo, por onde quer que andares.",
+    fonte: "Josué 1:9",
+    link: ref("ot", "josh", 1, 9),
+  },
+  {
+    tipo: "escritura",
+    texto: "O Senhor é o meu pastor; nada me faltará.",
+    fonte: "Salmos 23:1",
+    link: ref("ot", "ps", 23, 1),
+  },
+  {
+    tipo: "escritura",
+    texto: "Aquietai-vos e sabei que eu sou Deus.",
+    fonte: "Salmos 46:10",
+    link: ref("ot", "ps", 46, 10),
+  },
+  {
+    tipo: "escritura",
+    texto: "Mas os que esperam no Senhor renovarão as suas forças; subirão com asas como águias; correrão e não se cansarão; caminharão e não se fatigarão.",
+    fonte: "Isaías 40:31",
+    link: ref("ot", "isa", 40, 31),
+  },
+  {
+    tipo: "escritura",
+    texto: "Mas buscai primeiro o reino de Deus, e a sua justiça, e todas estas coisas vos serão acrescentadas.",
+    fonte: "Mateus 6:33",
+    link: ref("nt", "matt", 6, 33),
+  },
+  {
+    tipo: "escritura",
+    texto: "Porque Deus amou o mundo de tal maneira que deu o seu Filho unigênito, para que todo aquele que nele crê não pereça, mas tenha a vida eterna.",
+    fonte: "João 3:16",
+    link: ref("nt", "john", 3, 16),
+  },
+  {
+    tipo: "escritura",
+    texto: "Um novo mandamento vos dou: Que vos ameis uns aos outros; como eu vos amei a vós, que também vós uns aos outros vos ameis.",
+    fonte: "João 13:34",
+    link: ref("nt", "john", 13, 34),
+  },
+  {
+    tipo: "escritura",
+    texto: "E, se algum de vós tem falta de sabedoria, peça-a a Deus, que a todos dá liberalmente e não o lança em rosto, e ser-lhe-á dada.",
+    fonte: "Tiago 1:5",
+    link: ref("nt", "james", 1, 5),
+  },
 
-  // — Doutrina e Convênios —
+  // — Doutrina e Convênios e Pérola de Grande Valor —
   {
     tipo: "escritura",
     texto: "Meu filho, paz seja com tua alma; tua adversidade e tuas aflições não durarão mais que um momento.",
@@ -118,6 +244,48 @@ const MENSAGENS = [
     texto: "Olhai para mim em cada pensamento; não duvideis, não temais.",
     fonte: "Doutrina e Convênios 6:36",
     link: ref("dc-testament", "dc", 6, 36),
+  },
+  {
+    tipo: "escritura",
+    texto: "Aprende de mim e ouve minhas palavras; anda na mansidão de meu Espírito e terás paz em mim.",
+    fonte: "Doutrina e Convênios 19:23",
+    link: ref("dc-testament", "dc", 19, 23),
+  },
+  {
+    tipo: "escritura",
+    texto: "Lembrai-vos de que o valor das almas é grande à vista de Deus.",
+    fonte: "Doutrina e Convênios 18:10",
+    link: ref("dc-testament", "dc", 18, 10),
+  },
+  {
+    tipo: "escritura",
+    texto: "Portanto não vos canseis de fazer o bem, porque estais lançando o alicerce de uma grande obra. E de pequenas coisas provém aquilo que é grande.",
+    fonte: "Doutrina e Convênios 64:33",
+    link: ref("dc-testament", "dc", 64, 33),
+  },
+  {
+    tipo: "escritura",
+    texto: "Irei adiante de vós. Estarei a vossa direita e a vossa esquerda, e meu Espírito estará em vossos corações e meus anjos ao vosso redor, para vos suster.",
+    fonte: "Doutrina e Convênios 84:88",
+    link: ref("dc-testament", "dc", 84, 88),
+  },
+  {
+    tipo: "escritura",
+    texto: "Achegai-vos a mim e eu me achegarei a vós; buscai-me diligentemente e achar-me-eis.",
+    fonte: "Doutrina e Convênios 88:63",
+    link: ref("dc-testament", "dc", 88, 63),
+  },
+  {
+    tipo: "escritura",
+    texto: "Pois eis que esta é minha obra e minha glória: Levar a efeito a imortalidade e a vida eterna do homem.",
+    fonte: "Moisés 1:39",
+    link: ref("pgp", "moses", 1, 39),
+  },
+  {
+    tipo: "escritura",
+    texto: "Este é o Meu Filho Amado. Ouve-O!",
+    fonte: "Joseph Smith—História 1:17",
+    link: ref("pgp", "js-h", 1, 17),
   },
 
   // — Profetas e apóstolos —
@@ -138,5 +306,29 @@ const MENSAGENS = [
     texto: "Duvide de suas dúvidas antes de duvidar de sua fé.",
     fonte: "Élder Dieter F. Uchtdorf",
     detalhe: "“Venha, junte-se a nós”, outubro de 2013",
+  },
+  {
+    tipo: "profeta",
+    texto: "Nos dias futuros, não será possível sobreviver espiritualmente sem a influência orientadora, diretriz, consoladora e constante do Espírito Santo.",
+    fonte: "Presidente Russell M. Nelson",
+    detalhe: "“Revelação para a Igreja, revelação para nossa vida”, abril de 2018",
+  },
+  {
+    tipo: "profeta",
+    texto: "Nunca deixem que um problema a ser resolvido se torne mais importante do que uma pessoa a ser amada.",
+    fonte: "Presidente Thomas S. Monson",
+    detalhe: "“Encontrar alegria na jornada”, outubro de 2008",
+  },
+  {
+    tipo: "profeta",
+    texto: "Algumas bênçãos vêm logo, outras demoram um pouco, e algumas só vêm no céu; mas, para aqueles que aceitam o evangelho de Jesus Cristo, elas vêm.",
+    fonte: "Élder Jeffrey R. Holland",
+    detalhe: "“Um sumo sacerdote dos bens futuros”, outubro de 1999",
+  },
+  {
+    tipo: "profeta",
+    texto: "Eu lhes ensino princípios corretos, e eles governam a si mesmos.",
+    fonte: "Profeta Joseph Smith",
+    detalhe: "Citado por John Taylor",
   },
 ];
