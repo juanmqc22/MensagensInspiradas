@@ -4,7 +4,6 @@ const el = {
   texto: document.getElementById("texto"),
   fonte: document.getElementById("fonte"),
   detalhe: document.getElementById("detalhe"),
-  saudacao: document.getElementById("saudacao"),
   outra: document.getElementById("outra"),
   contexto: document.getElementById("contexto"),
   compartilhar: document.getElementById("compartilhar"),
@@ -38,13 +37,6 @@ function escolher() {
   return MENSAGENS[indice];
 }
 
-function saudacao() {
-  const hora = new Date().getHours();
-  if (hora < 12) return "Bom dia — uma mensagem para você";
-  if (hora < 18) return "Boa tarde — uma mensagem para você";
-  return "Boa noite — uma mensagem para você";
-}
-
 function mostrar(m) {
   atual = m;
   el.categoria.textContent = m.tipo === "profeta" ? "Palavras dos profetas" : "Escrituras";
@@ -71,7 +63,6 @@ async function compartilhar() {
   } catch {}
 }
 
-el.saudacao.textContent = saudacao();
 mostrar(escolher());
 
 el.outra.addEventListener("click", trocar);
