@@ -1,0 +1,15 @@
+# Mantém a branch gh-pages (usada pelo GitHub Pages) igual à main.
+name: Publicar site
+on:
+  push:
+    branches: [main]
+permissions:
+  contents: write
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - run: git push --force origin HEAD:gh-pages
