@@ -35,7 +35,7 @@ body {
   min-height: 100svh;
   max-width: 640px;
   margin: 0 auto;
-  padding: 40px 24px 28px;
+  padding: 40px 24px 48px;
   display: flex;
   flex-direction: column;
 }
@@ -137,21 +137,6 @@ body {
   text-decoration-color: var(--linha);
   cursor: pointer;
 }
-
-.rodape {
-  margin-top: 40px;
-  padding-top: 20px;
-  border-top: 1px solid var(--linha);
-  text-align: center;
-  font-size: 0.75rem;
-  color: var(--suave);
-}
-
-.rodape p { margin: 4px 0; }
-
-.rodape a { color: inherit; }
-
-.aviso { opacity: 0.8; }
 
 @media (prefers-reduced-motion: reduce) {
   .mensagem { transition: none; }
