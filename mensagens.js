@@ -19,7 +19,7 @@ const MENSAGENS = [
   },
   {
     tipo: "escritura",
-    texto: "Sim, em verdade, em verdade vos digo que se todos os homens tivessem sido, fossem e viessem a ser semelhantes a Morôni, eis que os próprios poderes do inferno teriam sido abalados para sempre; sim, o diabo nunca teria poder sobre o coração dos filhos dos homens.",
+    texto: "Sim, em verdade, em verdade vos digo que se todos os homens tivessem sido e fossem e pudessem sempre ser como Morôni, eis que os próprios poderes do inferno teriam sido abalados para sempre; sim, o diabo nunca teria poder sobre o coração dos filhos dos homens.",
     fonte: "Alma 48:17",
     link: ref("bofm", "alma", 48, 17),
   },
